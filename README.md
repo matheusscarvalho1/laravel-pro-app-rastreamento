@@ -13,7 +13,30 @@ Esta aplicação tem como objetivo realizar o **rastreamento de fretes**, permit
 - SQLite (ambiente de desenvolvimento)
 - Composer
 
+
+## 📊 Painel Administrativo
+
+O projeto utiliza Filament PHP para o painel administrativo, permitindo:
+
+- Gerenciamento de fretes
+
+- Controle de etapas
+
+- Atualização de status em tempo real
+
+- Interface reativa (sem necessidade de recarregar a página)
+
+## 🔐 Acesso ao painel administrativo
+
+Após iniciar o servidor de desenvolvimento, o painel pode ser acessado em:
+
+```
+http://127.0.0.1:8000/admin
+```
+
 ---
+
+
 
 ### Instalando o projeto
 
