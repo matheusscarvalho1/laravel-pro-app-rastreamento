@@ -1,6 +1,19 @@
 ## Projeto desenvolvido na TreinaWeb Cursos
 
-Desenvolvido no projeto prático: Laravel - Aplicação de rastreamento de fretes
+Esta aplicação tem como objetivo realizar o **rastreamento de fretes**, permitindo o controle de etapas, status e histórico de movimentações, além de contar com um **painel administrativo** para gerenciamento dos dados.
+
+## 🛠️ Tecnologias Utilizadas
+
+- PHP 8.2
+- Laravel 11
+- Blade
+- Filament PHP v5
+- Tailwind CSS
+- Eloquent ORM
+- SQLite (ambiente de desenvolvimento)
+- Composer
+
+---
 
 ### Instalando o projeto
 
@@ -37,4 +50,10 @@ php artisan migrate
 
 ```
 php artisan serve
+```
+
+- A aplicação fica disponível em:
+
+```
+http://localhost:8000
 ```
